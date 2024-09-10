@@ -1,47 +1,64 @@
 # TD-Gambling | Tower Defense Game with Crates (2D, Pygame)
-## Projektübersicht
-Dieses 2D-Tower-Defense-Spiel, entwickelt mit Python und der Pygame-Bibliothek, bringt spannende Gameplay-Mechaniken wie Türme, die du platzierst, um Wellen von Gegnern abzuwehren. Zudem haben wir ein Glücksspielelement eingebaut: Crates, die du mit einer erspielbaren In-Game-Währung kaufen kannst. Diese Crates enthalten zufällige Belohnungen, wie Skins oder neue Türme, die du im Laufe des Spiels leveln kannst.
 
-Das Spiel ist für PC vorgesehen und könnte später auch auf mobile Geräte portiert werden.
+## Project Overview
+
+This 2D Tower Defense game, developed with Python and the Pygame library, features exciting gameplay mechanics such as placing towers to defend against waves of enemies. Additionally, we have incorporated a gambling element: crates that you can purchase using an earned in-game currency. These crates contain random rewards, such as skins or new towers that you can level up as the game progresses.
+
+The game is planned for PC and might later be ported to mobile devices.
 
 ## Features
-- **Strategisches Tower-Defense-Gameplay:** Platziere verschiedene Türme auf der Karte, um ankommende Gegner zu bekämpfen.
-- **In-Game Währung:** Verdiene In-Game-Währung, indem du Feinde besiegst oder Wellen überstehst.
-- **Crates-System:** Verwende die erspielte Währung, um Crates zu kaufen, die zufällige Skins oder neue Türme enthalten.
-- **Upgrades:** Türme und Skins, die du durch Crates erhältst, können aufgewertet werden, um ihre Stärke und Fähigkeiten zu verbessern.
-- **Levelsystem für Türme:** Entwickle deine Türme im Laufe des Spiels weiter, um stärkere Feinde abzuwehren.
-- **2D-Grafik:** Einfaches, aber ansprechendes 2D-Design und Animationen.
-- **Plattform:** Das Spiel ist für PC geplant, eine mobile Version könnte folgen.
-## Installation und Setup
-### Voraussetzungen
+
+- **Strategic Tower Defense Gameplay:** Place various towers on the map to fight off incoming enemies.
+- **In-Game Currency:** Earn in-game currency by defeating enemies or surviving waves.
+- **Crate System:** Use the earned currency to buy crates, which contain random skins or new towers.
+- **Upgrades:** Towers and skins obtained through crates can be upgraded to improve their strength and abilities.
+- **Tower Leveling System:** Upgrade your towers as the game progresses to fend off stronger enemies.
+- **2D Graphics:** Simple yet appealing 2D design and animations.
+- **Platform:** The game is planned for PC, with a potential mobile version to follow.
+
+## Installation and Setup
+
+### Requirements
+
 - Python 3.x
-- Pygame-Bibliothek
-Installiere Pygame über pip, falls noch nicht vorhanden:
+- Pygame library
+
+Install Pygame via pip if not already installed:
+
 ```
 pip install pygame
 ```
 
-### Spiel installieren und starten
-1. **Repository klonen:**
+### Installing and Running the Game
+
+1. **Clone the repository:**
+
 ```
 git clone https://github.com/NinjaV2Kn/TD-Gambling.git
 cd TD-Gambling
 ```
 
-2. **Spiel starten:**
+2. **Start the game:**
+
 ```
 python main.py
 ```
 
-## Spielmechanik
-### Türme
-- **Platzierung von Türmen:** Du kannst Türme strategisch auf der Karte platzieren, um feindliche Wellen zu bekämpfen.
-- **Upgrade-System:** Jede Einheit kann durch Crates aufgewertet werden und erhält so zusätzliche Fähigkeiten oder erhöhten Schaden.
+## Game Mechanics
+
+### Towers
+
+- **Placing Towers:** You can strategically place towers on the map to fight off waves of enemies.
+- **Upgrade System:** Each unit can be upgraded through crates, gaining additional abilities or increased damage.
+
 ### Crates
-- **In-Game-Währung:** Crates können nur mit der erspielten Währung gekauft werden, es gibt keine Käufe mit echtem Geld.
-- **Inhalt:** Crates enthalten zufällig Skins oder neue Türme.
-- **Seltenheit:** Die Gegenstände in den Crates können unterschiedliche Seltenheitsgrade haben, von gewöhnlich bis legendär.
-## Zukünftige Features (optional)
-- **Mobile Version:** Eine Version für mobile Plattformen (iOS und Android) wird in Betracht gezogen.
-- **Mehr Crate-Typen:** Einführung von verschiedenen Crates mit unterschiedlichen Belohnungen.
-- **Mehr Spielmodi:** Zusätzliche Spielmodi und Herausforderungen.
+
+- **In-Game Currency:** Crates can only be purchased with earned in-game currency; no real money purchases are involved.
+- **Content:** Crates contain random skins or new towers.
+- **Rarity:** The items in crates can have different rarity levels, ranging from common to legendary.
+
+## Future Features (Optional)
+
+- **Mobile Version:** A version for mobile platforms (iOS and Android) is being considered.
+- **More Crate Types:** Introduction of different crates with varying rewards.
+- **Additional Game Modes:** Extra game modes and challenges.
