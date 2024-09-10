@@ -24,7 +24,7 @@ pip install pygame
 ### Spiel installieren und starten
 1. **Repository klonen:**
 ```
- git clone https://github.com/NinjaV2Kn/TD-Gambling.git
+git clone https://github.com/NinjaV2Kn/TD-Gambling.git
 cd TD-Gambling
 ```
 
